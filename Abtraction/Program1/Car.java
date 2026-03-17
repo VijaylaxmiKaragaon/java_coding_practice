@@ -1,4 +1,4 @@
-package Abtraction;
+package Abtraction.Program1;
 
 public class Car extends Vehicle {
     double price;

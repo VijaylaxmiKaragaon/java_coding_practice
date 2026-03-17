@@ -1,4 +1,4 @@
-package Abtraction;
+package Abtraction.Program1;
 
 abstract class Vehicle {
     String brand;
