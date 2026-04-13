@@ -1,4 +1,4 @@
-package patterns;
+package empty;
 
 public class Prgm46 {
     public static void main(String[] args) {
