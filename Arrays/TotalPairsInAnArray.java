@@ -10,8 +10,9 @@ public class TotalPairsInAnArray {
 				System.out.print("("+curr+","+numbers[j]+")");
 				tp++;
 			}
-			System.out.println("Total pairs = "+tp);
+			System.out.println();
 		}
+        System.out.println("Total pairs = "+tp);
 	}
 	public static void main(String[] args) {
 		int numbers[]= {2,3,4,6,8,9};
