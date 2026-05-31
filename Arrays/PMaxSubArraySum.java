@@ -1,7 +1,7 @@
 package Arrays;
 
 public class PMaxSubArraySum{
-    public static void maxSubArraySum(int numbers[]) {
+    public static void PmaxSubArraySum(int numbers[]) {
     	int maxSum=	Integer.MIN_VALUE;
     	int currSum=0;
     	int prefix[] = new int[numbers.length];
@@ -26,7 +26,7 @@ public class PMaxSubArraySum{
     }
 	public static void main(String[] args) {
 		int[] numbers= {1,-2,6,-1,3};
-		maxSubArraySum(numbers);
+		PmaxSubArraySum(numbers);
 	}
 
 }
