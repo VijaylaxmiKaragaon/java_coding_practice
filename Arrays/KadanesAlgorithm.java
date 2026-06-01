@@ -7,15 +7,17 @@ public class KadanesAlgorithm {
 
         for(int i=0; i<numbers.length; i++){
             cs = cs + numbers[i];
+
+             ms = Math.max(cs, ms);
             if(cs < 0){
                 cs = 0;
             }
-            ms = Math.max(cs, ms);
+           
         }
         System.out.println("our max subarray sum is : "+ ms);
     }
     public static void main(String[] args) {
-        int[] numbers={1,-2,-4,-5,6};
+        int[] numbers={-1};
         kadanes(numbers);
     }
 }
